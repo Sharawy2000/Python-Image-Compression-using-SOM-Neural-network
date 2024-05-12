@@ -7,7 +7,6 @@ from PIL import Image
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
-
 import SOM_NN
 
 
@@ -304,11 +303,10 @@ class MyWindow(QWidget):
 # org_colors, org_size, n_clusters, compressed_img_size, it, minutes, seconds = None, None, None, None, 1, 0, 0
 
 def Som_NN(path, num_iterations, left_grid, right_grid, sigma, learning):
-    global som
+
+    global som , fig
     img = plt.imread(path)
 
-    # SOM_NN.som(path, num_iterations=num_iterations, output_size=(left_grid, right_grid)
-    #            , sigma=sigma, learning_rate=learning)
     som = SOM_NN.SOM(input_size=3, output_size=(left_grid, right_grid), num_iterations=num_iterations, learning_rate=learning, sigma=sigma)
     som.compress_image(input_image_path=path, output_image_path='Results/compressed_image.jpg')
     compressed_img = plt.imread("Results/compressed_image.jpg")
@@ -321,7 +319,7 @@ def Som_NN(path, num_iterations, left_grid, right_grid, sigma, learning):
     original_size_kb = original_size_bytes / 1024
     compressed_size_kb = compressed_size_bytes / 1024
 
-    global fig
+    # global fig
 
     # Plot the original and compressed images side by side
     fig, ax = plt.subplots(1, 2, figsize=(10, 5))
