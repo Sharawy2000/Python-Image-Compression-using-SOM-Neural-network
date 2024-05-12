@@ -1,6 +1,5 @@
 import os
 import sys
-
 import matplotlib.pyplot as plt
 import numpy as np
 import qdarkstyle
@@ -103,7 +102,7 @@ class MyWindow(QWidget):
 
         # right grid
         self.Right_grid_input = QSpinBox(self)
-        self.Right_grid_input.move(1220, 200)
+        self.Right_grid_input.move(1220, 125)
         self.Right_grid_input.setMinimum(1)
         self.Right_grid_input.setValue(10)
         self.Right_grid_input.setMaximum(100)
@@ -247,8 +246,14 @@ class MyWindow(QWidget):
 
     # Desplay the WCSS curve
     def som_metrics(self):
+        try:
+            if self.filename is not None:
 
-        plot_som_metrics(self.filename)
+                plot_som_metrics(self.filename)
+
+        except NameError:
+            print("image is not defined")
+
 
     # Define a function for checking the state of the radio button
     def check_iters_button(self):
@@ -283,6 +288,7 @@ class MyWindow(QWidget):
 
                 # Show the image
                 image.show()
+
         except NameError:
             print("fig is not defined")
 
@@ -336,6 +342,7 @@ def Som_NN(path, num_iterations, left_grid, right_grid, sigma, learning):
 
 
 def plot_som_metrics(path):
+
     plt.close()
 
     # Load the original and compressed images
