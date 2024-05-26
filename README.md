@@ -1,10 +1,10 @@
-Python Image Compression using SOM Neural Network
+📷 Python Image Compression using SOM Neural Network
 
-Description
+📄 Description
 
-This project implements an image compression algorithm using a Self-Organizing Map (SOM) neural network. The SOM algorithm helps in reducing the size of an image by clustering similar pixels together, which can be particularly useful for image storage and transmission.
+This project implements an image compression algorithm using a Self-Organizing Map (SOM) neural network. The SOM algorithm helps in reducing the size of an image by clustering similar pixels together, which is particularly useful for image storage and transmission.
 
-Installation Instructions
+🚀 Installation Instructions
 
 To install and run this project, follow these steps:
 
@@ -25,7 +25,7 @@ Install the required dependencies:
 bash
 Copy code
 pip install -r requirements.txt
-Usage
+📸 Usage
 
 To compress an image using the SOM neural network, run the following command:
 
@@ -39,12 +39,12 @@ Copy code
 python compress_image.py --input images/sample.jpg --output images/compressed_sample.jpg --dimensions 100x100
 This will compress the input image and save the compressed image to the specified output path.
 
-Features
+✨ Features
 
 Image Compression: Reduce image size by clustering similar pixels.
 Custom Dimensions: Specify the desired dimensions for the compressed image.
 Easy Integration: Simple command-line interface for compressing images.
-Contributing
+🤝 Contributing
 
 We welcome contributions! To contribute, follow these steps:
 
@@ -53,11 +53,11 @@ Create a new branch (git checkout -b feature-branch).
 Make your changes and commit them (git commit -m 'Add some feature').
 Push to the branch (git push origin feature-branch).
 Create a new Pull Request.
-License
+📜 License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-Acknowledgments
+🙏 Acknowledgments
 
 SOM Algorithm
 Any other libraries or resources used in your project.
