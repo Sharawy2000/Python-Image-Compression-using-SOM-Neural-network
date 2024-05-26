@@ -33,12 +33,6 @@ To install and run this project, follow these steps:
     pip install -r requirements.txt
     ```
 
-## Usage
-
-To compress an image using the SOM neural network, run the following command:
-
-
-
 ## 📄 Description
 
 This project implements an image compression algorithm using a Self-Organizing Map (SOM) neural network. The SOM algorithm helps in reducing the size of an image by clustering similar pixels together, which is particularly useful for image storage and transmission.
