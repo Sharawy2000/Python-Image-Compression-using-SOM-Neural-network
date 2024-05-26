@@ -1,6 +1,5 @@
 <p align="center">
   <a href="https://github.com/Sharawy2000/Python-Image-Compression-using-SOM-Neural-network" target="_blank">
-  <h2> 📷 Python Image Compression using SOM Neural Network </h2>
   </a>
 </p>
 
@@ -18,6 +17,8 @@
     <img src="https://img.shields.io/github/license/Sharawy2000/Python-Image-Compression-using-SOM-Neural-network" alt="License">
   </a>
 </p>
+
+<h2> 📷 Python Image Compression using SOM Neural Network </h2>
 
 ## About the Project
 
