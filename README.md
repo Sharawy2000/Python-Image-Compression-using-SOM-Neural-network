@@ -3,22 +3,8 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/Sharawy2000/Python-Image-Compression-using-SOM-Neural-network/actions">
-    <img src="https://github.com/Sharawy2000/Python-Image-Compression-using-SOM-Neural-network/workflows/tests/badge.svg" alt="Build Status">
-  </a>
-  <a href="https://pypi.org/project/yourprojectname">
-    <img src="https://img.shields.io/pypi/dm/yourprojectname" alt="Total Downloads">
-  </a>
-  <a href="https://pypi.org/project/yourprojectname">
-    <img src="https://img.shields.io/pypi/v/yourprojectname" alt="Latest Stable Version">
-  </a>
-  <a href="https://github.com/Sharawy2000/Python-Image-Compression-using-SOM-Neural-network/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/Sharawy2000/Python-Image-Compression-using-SOM-Neural-network" alt="License">
-  </a>
-</p>
-
 <h2> 📷 Python Image Compression using SOM Neural Network </h2>
+<br>
 
 ## About the Project
 
