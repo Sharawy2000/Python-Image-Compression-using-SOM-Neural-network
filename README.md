@@ -1,3 +1,60 @@
+<p align="center">
+  <a href="https://github.com/Sharawy2000/Python-Image-Compression-using-SOM-Neural-network" target="_blank">
+<!--     <img src="https://yourimageurl.com/logo.png" width="400" alt="Project Logo"> -->
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/yourusername/Python-Image-Compression-using-SOM-Neural-network/actions">
+    <img src="https://github.com/yourusername/Python-Image-Compression-using-SOM-Neural-network/workflows/tests/badge.svg" alt="Build Status">
+  </a>
+  <a href="https://pypi.org/project/yourprojectname">
+    <img src="https://img.shields.io/pypi/dm/yourprojectname" alt="Total Downloads">
+  </a>
+  <a href="https://pypi.org/project/yourprojectname">
+    <img src="https://img.shields.io/pypi/v/yourprojectname" alt="Latest Stable Version">
+  </a>
+  <a href="https://github.com/yourusername/Python-Image-Compression-using-SOM-Neural-network/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/yourusername/Python-Image-Compression-using-SOM-Neural-network" alt="License">
+  </a>
+</p>
+
+## About the Project
+
+This project implements an image compression algorithm using a Self-Organizing Map (SOM) neural network. The SOM algorithm helps in reducing the size of an image by clustering similar pixels together, which is particularly useful for image storage and transmission.
+
+## Installation Instructions
+
+To install and run this project, follow these steps:
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/yourusername/Python-Image-Compression-using-SOM-Neural-network.git
+    cd Python-Image-Compression-using-SOM-Neural-network
+    ```
+
+2. **Create a virtual environment (optional but recommended):**
+
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
+
+3. **Install the required dependencies:**
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+To compress an image using the SOM neural network, run the following command:
+
+```bash
+python compress_image.py --input <path_to_input_image> --output <path_to_output_image> --dimensions <width>x<height>
+
+
 📷 Python Image Compression using SOM Neural Network
 
 
