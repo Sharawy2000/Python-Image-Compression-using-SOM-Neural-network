@@ -3,8 +3,7 @@
   </a>
 </p>
 
-<h2> 📷 Python Image Compression using SOM Neural Network </h2>
-<br>
+## 📷 Python Image Compression using SOM Neural Network
 
 ## About the Project
 
